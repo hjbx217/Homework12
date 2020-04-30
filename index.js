@@ -8,36 +8,6 @@
 
 var db = require("./db/connection");
 var inquirer = require("inquirer");
-/*const viewOptions = [
-    "View All Employees",
-    "View All Employees By Department",
-    "View All Employees By Manager",
-    "Add Employee",
-    "Remove Employee",
-    "Update Employee Role",
-    "Update Employee Manager",
-    "View All Roles",
-    "Exit"
-];
-
-const employeeOptions = [
-    "Kim Stewart",
-    "Bob Ross",
-    "Justiene Cliff",
-    "Zachary Lee",
-    "David Lee",
-    "James Stamos",
-    "Laurie Sheuffer",
-    "Kirstin Verden",
-    "Exit"
-];
-
-const updateEmployee = [
-    "First Name",
-    "Last Name",
-    "Role",
-    "Exit"
-]*/
 
 
 function userQuestion () {
